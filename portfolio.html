@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Портфолио</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="heder">
+      <div class="container">
+        <a
+          href="https://evolver1.github.io/goit-markup-hw-04/"
+          rel="noopener, noindex, nofollow"
+          class="logo"
+          >Web<span class="logo__text">Studio</span></a
+        >
+        <nav class="navigait">
+          <ul class="list navigation">
+            <li class="navigation__li">
+              <a class="link navigation__link" href="./index.html" rel="noopener, noindex, nofollow"
+                >Студия</a
+              >
+            </li>
+            <li class="navigation__li">
+              <a
+                class="link navigation__link"
+                href="./portfolio.html"
+                rel="noopener, noindex, nofollow"
+                >Портфолио</a
+              >
+            </li>
+            <li class="navigation__li">
+              <a class="link navigation__link" href="" rel="noopener, noindex, nofollow"
+                >Контакты</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <ul class="list adress">
+          <li class="adress__li">
+            <div class="adress__logo-char">
+              <svg class="adress__logo-m">
+                <use xlink:href="./images/icons.svg#icon-envelope"></use>
+              </svg>
+              <a class="link adress__link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </div>
+          </li>
+          <li class="adress__li">
+            <div class="adress__logo-char">
+              <svg class="adress__logo-tel">
+                <use xlink:href="./images/icons.svg#icon-smartphone"></use>
+              </svg>
+              <a class="link adress__link" href="tel:+380961111111">+38 096 111 11 11</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="container">
+          <div class="our-progects">
+            <h2 hidden>Скрыто</h2>
+            <ul class="list our-progects__Button-list">
+              <li class="our-progects__Button-li">
+                <button type="button" class="button our-progects__button">Все</button>
+              </li>
+              <li class="our-progects__Button-li">
+                <button type="button" class="button our-progects__button">Веб-сайты</button>
+              </li>
+              <li class="our-progects__Button-li">
+                <button type="button" class="button our-progects__button">Приложения</button>
+              </li>
+              <li class="our-progects__Button-li">
+                <button type="button" class="button our-progects__button">Дизайн</button>
+              </li>
+              <li class="our-progects__Button-li">
+                <button type="button" class="button our-progects__button">Маркетинг</button>
+              </li>
+            </ul>
+            <!-- </section>
+
+      <section class="our-progects">
+        <h2 hidden>Скрыто</h2> -->
+            <div class="our-progects__body">
+              <ul class="list our-progects__img-list">
+                <li class="our-progects__img-li">
+                  <img
+                    class="image"
+                    src="./images/img_01-min.jpg"
+                    alt="Ноутбук с сайтом"
+                    width="370"
+                    height="249"
+                  />
+                  <h3 class="our-progects__header">Технокряк</h3>
+                  <p class="our-progects__txt">Веб-сайт</p>
+                </li>
+                <li class="our-progects__img-li">
+                  <img
+                    class="image"
+                    src="./images/img_02-min.jpg"
+                    alt="Яркий постер"
+                    width="370"
+                    height="249"
+                  />
+                  <h3 class="our-progects__header">
+                    Постер <span lang="en">New Orlean vs Golden Star</span>
+                  </h3>
+                  <p class="our-progects__txt">Дизайн</p>
+                </li>
+                <li class="our-progects__img-li">
+                  <img
+                    class="image"
+                    src="./images/img_03-min.jpg"
+                    alt="Дизайн приложения"
+                    width="370"
+                    height="249"
+                  />
+                  <h3 class="our-progects__header">Ресторан <span lang="en">Seafood</span></h3>
+                  <p class="our-progects__txt">Приложение</p>
+                </li>
+              </ul>
+              <ul class="list our-progects__img-list">
+                <li class="our-progects__img-li">
+                  <img
+                    class="image"
+                    src="./images/img_04-min.jpg"
+                    alt="Студийные наушники"
+                    width="370"
+                    height="249"
+                  />
+                  <h3 class="our-progects__header">Проект <span lang="en">Prime</span></h3>
+                  <p class="our-progects__txt">Маркетинг</p>
+                </li>
+                <li class="our-progects__img-li">
+                  <img
+                    class="image"
+                    src="./images/img_05-min.jpg"
+                    alt="Упаковка"
+                    width="370"
+                    height="249"
+                  />
+                  <h3 class="our-progects__header">Проект <span lang="en">Boxes</span></h3>
+                  <p class="our-progects__txt">Приложение</p>
+                </li>
+                <li class="our-progects__img-li">
+                  <img
+                    class="image"
+                    src="./images/img_06-min.jpg"
+                    alt="Страница сайта"
+                    width="370"
+                    height="249"
+                  />
+                  <h3 lang="en" class="our-progects__header">Inspiration has no Borders</h3>
+                  <p class="our-progects__txt">Веб-сайт</p>
+                </li>
+              </ul>
+              <ul class="list our-progects__img-list">
+                <li class="our-progects__img-li">
+                  <img
+                    class="image"
+                    src="./images/img_07-min.jpg"
+                    alt="Иллюстрированная книга"
+                    width="370"
+                    height="249"
+                  />
+                  <h4 class="our-progects__header">Издание Limited Edition</h4>
+                  <p class="our-progects__txt">Дизайн</p>
+                </li>
+                <li class="our-progects__img-li">
+                  <img
+                    class="image"
+                    src="./images/img_08-min.jpg"
+                    alt="Стильный ярлык"
+                    width="370"
+                    height="249"
+                  />
+                  <h4 class="our-progects__header">Проект LAB</h4>
+                  <p class="our-progects__txt">Маркетинг</p>
+                </li>
+                <li class="our-progects__img-li">
+                  <img
+                    src="./images/img_09-min.jpg"
+                    alt="Создание приложения"
+                    width="370"
+                    height="249"
+                  />
+                  <h4 class="our-progects__header" lang="en">Growing Business</h4>
+                  <p class="our-progects__txt">Приложение</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="futer-sec">
+      <div class="container">
+        <div class="futer-sec__cont">
+          <div class="futer-sec__adr-cont">
+            <a
+              href="https://evolver1.github.io/goit-markup-hw-04/"
+              rel="noopener, noindex, nofollow"
+              class="logo"
+              >Web<span class="logo__text-footer">Studio</span></a
+            >
+            <address class="adr">
+              <ul class="list adress-foot">
+                <li class="adress-foot__li">
+                  <a
+                    class="link adress-foot__adr"
+                    href="https://goo.gl/maps/tgrZYvGDTSjo1i289"
+                    target="_blank"
+                    rel="noopener, noindex, nofollow"
+                    >г. Киев, пр-т Леси Украинки, 26
+                  </a>
+                </li>
+                <li class="adress-foot__li">
+                  <a class="link adress-foot__link" href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
+                </li>
+                <li class="adress-foot__li">
+                  <a class="link adress-foot__link" href="tel:+380961111111">+38 096 111 11 11</a>
+                </li>
+              </ul>
+            </address>
+          </div>
+
+          <div class="social-links-foot">
+            <h2 class="social-links-foot__header">присоединяйтесь</h2>
+            <ul class="list social-links-foot__Button-list">
+              <li class="social-links-foot__Button-li">
+                <button type="button" class="button social-links-foot__button">
+                  <svg class="social-links-foot__logo">
+                    <use xlink:href="./images/icons.svg#icon-ellipse-1"></use>
+                  </svg>
+                </button>
+              </li>
+              <li class="social-links-foot__Button-li">
+                <button type="button" class="button social-links-foot__button">
+                  <svg class="social-links-foot__logo">
+                    <use xlink:href="./images/icons.svg#icon-ellipse-2"></use>
+                  </svg>
+                </button>
+              </li>
+              <li class="social-links-foot__Button-li">
+                <button type="button" class="button social-links-foot__button">
+                  <svg class="social-links-foot__logo">
+                    <use xlink:href="./images/icons.svg#icon-ellipse-3"></use>
+                  </svg>
+                </button>
+              </li>
+              <li class="social-links-foot__Button-li">
+                <button type="button" class="button social-links-foot__button">
+                  <svg class="social-links-foot__logo">
+                    <use xlink:href="./images/icons.svg#icon-ellipse-4"></use>
+                  </svg>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
